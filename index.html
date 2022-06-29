@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://cdn-icons.flaticon.com/png/128/4049/premium/4049083.png?token=exp=1656111973~hmac=66761050dfefae45a879211b10b0ee69"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tabela de Times</title>
+  </head>
+  <body>
+    <section>
+      <table>
+        <caption id="titulo">
+          <i class="fa-solid fa-futbol"></i
+          >ACME - Tabela e classificação
+        </caption>
+        <thead>
+          <tr>
+            <th class="numero"></th>
+            <th class="nome"></th>
+            <th></th>
+            <th></th>
+            <th class="pontos">P</th>
+            <th class="jogos">J</th>
+            <th class="vitorias">V</th>
+            <th class="empates">E</th>
+            <th class="derrotas">D</th>
+            <th class="gols-pro">GP</th>
+            <th class="gols-contra">GC</th>
+            <th class="saldo-gols">SG</th>
+            <th class="aproveitamento">%</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="numero faixa1">1</td>
+            <td class="nome">Corinthians</td>
+            <td></td>
+            <td></td>
+            <td class="pontos">17</td>
+            <td class="jogos">7</td>
+            <td class="vitorias">5</td>
+            <td class="empates">2</td>
+            <td class="derrotas">0</td>
+            <td class="gols-pro">15</td>
+            <td class="gols-contra">8</td>
+            <td class="saldo-gols">7</td>
+            <td class="aproveitamento">81</td>
+          </tr>
+          <tr>
+            <td class="numero faixa1">2</td>
+            <td class="nome">Ceará</td>
+            <td></td>
+            <td></td>
+            <td class="pontos">17</td>
+            <td class="jogos">7</td>
+            <td class="vitorias">5</td>
+            <td class="empates">2</td>
+            <td class="derrotas">0</td>
+            <td class="gols-pro">15</td>
+            <td class="gols-contra">1</td>
+            <td class="saldo-gols">6</td>
+            <td class="aproveitamento">81</td>
+          </tr>
+          <tr>
+            <td class="numero faixa1">3</td>
+            <td class="nome">Fluminense</td>
+            <td></td>
+            <td></td>
+            <td class="pontos">15</td>
+            <td class="jogos">7</td>
+            <td class="vitorias">5</td>
+            <td class="empates">0</td>
+            <td class="derrotas">2</td>
+            <td class="gols-pro">11</td>
+            <td class="gols-contra">5</td>
+            <td class="saldo-gols">6</td>
+            <td class="aproveitamento">71.4</td>
+          </tr>
+          <tr id="fim-faixa2">
+            <td class="numero faixa2">4</td>
+            <td class="nome">Santos</td>
+            <td></td>
+            <td></td>
+            <td class="pontos">12</td>
+            <td class="jogos">7</td>
+            <td class="vitorias">3</td>
+            <td class="empates">3</td>
+            <td class="derrotas">1</td>
+            <td class="gols-pro">15</td>
+            <td class="gols-contra">10</td>
+            <td class="saldo-gols">5</td>
+            <td class="aproveitamento">57.1</td>
+          </tr>
+          <tr>
+            <td class="numero faixa3">5</td>
+            <td class="nome">São Paulo</td>
+            <td></td>
+            <td></td>
+            <td class="pontos">11</td>
+            <td class="jogos">7</td>
+            <td class="vitorias">3</td>
+            <td class="empates">2</td>
+            <td class="derrotas">2</td>
+            <td class="gols-pro">9</td>
+            <td class="gols-contra">6</td>
+            <td class="saldo-gols">3</td>
+            <td class="aproveitamento">52.6</td>
+          </tr>
+          <tr>
+            <td class="numero faixa3">6</td>
+            <td class="nome">Goias</td>
+            <td></td>
+            <td></td>
+            <td class="pontos">10</td>
+            <td class="jogos">7</td>
+            <td class="vitorias">3</td>
+            <td class="empates">1</td>
+            <td class="derrotas">3</td>
+            <td class="gols-pro">9</td>
+            <td class="gols-contra">10</td>
+            <td class="saldo-gols">-1</td>
+            <td class="aproveitamento">47.6</td>
+          </tr>
+          <tr>
+            <td class="numero faixa3">7</td>
+            <td class="nome">Botafogo</td>
+            <td></td>
+            <td></td>
+            <td class="pontos">9</td>
+            <td class="jogos">7</td>
+            <td class="vitorias">2</td>
+            <td class="empates">3</td>
+            <td class="derrotas">2</td>
+            <td class="gols-pro">13</td>
+            <td class="gols-contra">11</td>
+            <td class="saldo-gols">2</td>
+            <td class="aproveitamento">42.9</td>
+          </tr>
+          <tr>
+            <td class="numero faixa3">8</td>
+            <td class="nome">Flamengo</td>
+            <td></td>
+            <td></td>
+            <td class="pontos">9</td>
+            <td class="jogos">7</td>
+            <td class="vitorias">2</td>
+            <td class="empates">3</td>
+            <td class="derrotas">2</td>
+            <td class="gols-pro">9</td>
+            <td class="gols-contra">8</td>
+            <td class="saldo-gols">1</td>
+            <td class="aproveitamento">42.9</td>
+          </tr>
+          <tr>
+            <td class="numero faixa3">9</td>
+            <td class="nome">Cruzeiro</td>
+            <td></td>
+            <td></td>
+            <td class="pontos">9</td>
+            <td class="jogos">6</td>
+            <td class="vitorias">2</td>
+            <td class="empates">3</td>
+            <td class="derrotas">1</td>
+            <td class="gols-pro">7</td>
+            <td class="gols-contra">6</td>
+            <td class="saldo-gols">1</td>
+            <td class="aproveitamento">50</td>
+          </tr>
+          <tr>
+            <td class="numero faixa3">10</td>
+            <td class="nome">Guarani</td>
+            <td></td>
+            <td></td>
+            <td class="pontos">9</td>
+            <td class="jogos">6</td>
+            <td class="vitorias">2</td>
+            <td class="empates">3</td>
+            <td class="derrotas">1</td>
+            <td class="gols-pro">7</td>
+            <td class="gols-contra">7</td>
+            <td class="saldo-gols">0</td>
+            <td class="aproveitamento">50</td>
+          </tr>
+          <tr>
+            <td class="numero faixa3">11</td>
+            <td class="nome">Palmeiras</td>
+            <td></td>
+            <td></td>
+            <td class="pontos">8</td>
+            <td class="jogos">6</td>
+            <td class="vitorias">2</td>
+            <td class="empates">2</td>
+            <td class="derrotas">2</td>
+            <td class="gols-pro">5</td>
+            <td class="gols-contra">4</td>
+            <td class="saldo-gols">1</td>
+            <td class="aproveitamento">44.4</td>
+          </tr>
+          <tr>
+            <td class="numero faixa3">12</td>
+            <td class="nome">Grêmio</td>
+            <td></td>
+            <td></td>
+            <td class="pontos">8</td>
+            <td class="jogos">7</td>
+            <td class="vitorias">2</td>
+            <td class="empates">2</td>
+            <td class="derrotas">3</td>
+            <td class="gols-pro">10</td>
+            <td class="gols-contra">11</td>
+            <td class="saldo-gols">-1</td>
+            <td class="aproveitamento">38.1</td>
+          </tr>
+          <tr>
+            <td class="numero faixa4">13</td>
+            <td class="nome">Avaí</td>
+            <td></td>
+            <td></td>
+            <td class="pontos">8</td>
+            <td class="jogos">7</td>
+            <td class="vitorias">2</td>
+            <td class="empates">2</td>
+            <td class="derrotas">3</td>
+            <td class="gols-pro">10</td>
+            <td class="gols-contra">11</td>
+            <td class="saldo-gols">-1</td>
+            <td class="aproveitamento">38.1</td>
+          </tr>
+          <tr>
+            <td class="numero faixa4">14</td>
+            <td class="nome">Vitória</td>
+            <td></td>
+            <td></td>
+            <td class="pontos">8</td>
+            <td class="jogos">7</td>
+            <td class="vitorias">2</td>
+            <td class="empates">2</td>
+            <td class="derrotas">3</td>
+            <td class="gols-pro">7</td>
+            <td class="gols-contra">8</td>
+            <td class="saldo-gols">-1</td>
+            <td class="aproveitamento">-1</td>
+          </tr>
+          <tr>
+            <td class="numero faixa4">15</td>
+            <td class="nome">Prudente</td>
+            <td></td>
+            <td></td>
+            <td class="pontos">8</td>
+            <td class="jogos">6</td>
+            <td class="vitorias">2</td>
+            <td class="empates">2</td>
+            <td class="derrotas">2</td>
+            <td class="gols-pro">9</td>
+            <td class="gols-contra">11</td>
+            <td class="saldo-gols">-2</td>
+            <td class="aproveitamento">44.4</td>
+          </tr>
+          <tr id="fim-faixa4">
+            <td class="numero faixa4">16</td>
+            <td class="nome">Atlético</td>
+            <td></td>
+            <td></td>
+            <td class="pontos">7</td>
+            <td class="jogos">7</td>
+            <td class="vitorias">2</td>
+            <td class="empates">1</td>
+            <td class="derrotas">4</td>
+            <td class="gols-pro">10</td>
+            <td class="gols-contra">15</td>
+            <td class="saldo-gols">-5</td>
+            <td class="aproveitamento">33.3</td>
+          </tr>
+          <tr>
+            <td class="numero faixa5">17</td>
+            <td class="nome">Internacional</td>
+            <td></td>
+            <td></td>
+            <td class="pontos">6</td>
+            <td class="jogos">6</td>
+            <td class="vitorias">2</td>
+            <td class="empates">0</td>
+            <td class="derrotas">4</td>
+            <td class="gols-pro">10</td>
+            <td class="gols-contra">12</td>
+            <td class="saldo-gols">-2</td>
+            <td class="aproveitamento">33.3</td>
+          </tr>
+          <tr>
+            <td class="numero faixa5">18</td>
+            <td class="nome">Atlético-MG</td>
+            <td></td>
+            <td></td>
+            <td class="pontos">6</td>
+            <td class="jogos">7</td>
+            <td class="vitorias">2</td>
+            <td class="empates">0</td>
+            <td class="derrotas">5</td>
+            <td class="gols-pro">10</td>
+            <td class="gols-contra">16</td>
+            <td class="saldo-gols">-6</td>
+            <td class="aproveitamento">28.6</td>
+          </tr>
+          <tr>
+            <td class="numero faixa5">19</td>
+            <td class="nome">Vasco</td>
+            <td></td>
+            <td></td>
+            <td class="pontos">5</td>
+            <td class="jogos">7</td>
+            <td class="vitorias">1</td>
+            <td class="empates">2</td>
+            <td class="derrotas">4</td>
+            <td class="gols-pro">5</td>
+            <td class="gols-contra">12</td>
+            <td class="saldo-gols">-7</td>
+            <td class="aproveitamento">23.8</td>
+          </tr>
+          <tr>
+            <td class="numero faixa5">20</td>
+            <td class="nome">Atlético-GO</td>
+            <td></td>
+            <td></td>
+            <td class="pontos">1</td>
+            <td class="jogos">6</td>
+            <td class="vitorias">0</td>
+            <td class="empates">1</td>
+            <td class="derrotas">5</td>
+            <td class="gols-pro">3</td>
+            <td class="gols-contra">9</td>
+            <td class="saldo-gols">-6</td>
+            <td class="aproveitamento">5.6</td>
+          </tr>
+        </tbody>
+        <caption id="footer" style="caption-side: bottom">
+          <div id="cores">
+            <i id="taca-libertadores" class="fa-solid fa-square"></i>
+            TAÇA LIBERTADORES
+            <i id="pre-libertadores" class="fa-solid fa-square"></i>
+            PRÉ-LIBERTADORES
+            <i id="sul-america" class="fa-solid fa-square"></i>
+            SUL-AMÉRICA
+            <i id="rebaixados" class="fa-solid fa-square"></i>
+            REBAIXADOS
+          </div>
+          <div class="legenda">
+            <i class="siglas">P</i>
+            pontos
+            <i class="siglas">J</i>
+            jogos
+            <i class="siglas">V</i>
+            vitorias
+            <i class="siglas">E</i>
+            empates
+            <i class="siglas">D</i>
+            derrotas
+            <i class="siglas">GP</i>
+            gols pró
+            <i class="siglas">GC</i>
+            gols contra
+            <i class="siglas">SG</i>
+            saldo de gols
+            <i class="siglas">(%)</i>
+            aproveitamento
+          </div>
+        </caption>
+      </table>
+    </section>
+    <script
+      src="https://kit.fontawesome.com/2c911c4ac6.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

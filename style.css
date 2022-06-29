@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  top: 0;
+  left: 0;
+  padding: 0;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+  min-width: 300px;
+  width: 90%;
+  max-width: 550px;
+  margin: 20px auto;
+  table-layout: fixed;
+}
+
+td {
+  white-space: nowrap;
+}
+
+tr {
+  height: px;
+  text-align: center;
+  border: 1px solid #dddddd;
+}
+
+thead {
+  font-size: 13px;
+  color: #666666;
+  text-align: center;
+}
+
+.numero {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nome {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  color: #666666;
+}
+
+tbody .pontos {
+  color: black;
+  font-weight: bold;
+}
+
+tbody .jogos,
+.vitorias,
+.empates,
+.derrotas,
+.gols-pro,
+.gols-contra,
+.saldo-gols,
+.aproveitamento {
+  font-size: 14px;
+  text-align: center;
+  color: #666666;
+}
+
+tbody .pontos,
+tbody .vitorias,
+tbody .derrotas,
+tbody .gols-contra,
+tbody .aproveitamento {
+  background-color: #f7f7f7;
+  border-color: 1px solid #f7f7f7;
+}
+.numero.faixa1 {
+  color: #003366;
+}
+.numero.faixa2 {
+  color: #1398be;
+}
+.numero.faixa3 {
+  color: #de9800;
+}
+.numero.faixa4 {
+  color: #cccccc;
+}
+.numero.faixa5 {
+  color: #c91b04;
+}
+
+#footer {
+  display: table-caption;
+  border: 1px solid #dddddd;
+  font-size: 10px;
+  color: #8f8f8f;
+  text-align: left;
+}
+
+#taca-libertadores {
+  color: #003366;
+}
+#pre-libertadores {
+  color: #1398be;
+}
+#sul-america {
+  color: #de9800;
+}
+#rebaixados {
+  color: #c91b04;
+}
+
+#titulo {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555555;
+}
+
+.legenda {
+  font-size: 10px;
+  text-align: left;
+  color: #555555;
+  font-weight: normal;
+}
+
+.siglas {
+  font-size: 10px;
+  font-style: normal;
+  color: #555555;
+  text-align: left;
+  font-weight: bold;
+}
+
+#fim-faixa2,
+#fim-faixa4 {
+  border-bottom: 2px solid #cccccc;
+}
+
+#footer div {
+  margin: 3px;
+}
